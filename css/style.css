@@ -1,67 +1,106 @@
 .container-fluid{
 	background-color: #4267b2;
+	height:82px !important;
 
-}
-.content{
-	background: linear-gradient(white,#D3D8E8);
 }
 #form{
-	float: right; 
+    float:right!important;
+    margin-right: 100px;
 }
-.mr-sm-2{
-	height:25px;
-	width:40px;
+.email{
+    display:flex;
+    flex-direction: column;
+    margin-right:10px;
+    font-size: 12px;
+    color:#fff;
+    
 }
-.navbar-brand{
-	margin-top: 17px;
-	font-size: 45px;
-	font-weight: bold;
-	color: white;
-	margin-left: 100px;
+
+.pasword{
+    display:flex;
+    flex-direction: column;
+    margin-right:10px;
+    font-size: 12px;
+    color:#fff;
 }
-.ensemble{
-	display: flex;
-	margin-top: 15px;
-	margin-right: 100px;
-	
+.bt{
+    height: 25px;
+    border: 1px solid #bdc7d8;
 }
-.mail{
-	display: flex;
-	flex-direction: column;
-	margin-right: 10px;
-	font-size: 12px;
+.bt1{
+    border: 1px solid rgb(41, 66, 105);
+    border-image-slice: 100%;
+    height: 25px;
 	color:white;
+	background-color: rgb(54, 88, 153);
+    cursor: pointer;  
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin-top:21px;
+    margin-left: 30px;
 }
-.password{
-	display: flex;
-	flex-direction: column;
-	margin-right: 10px;
-	font-size: 12px;
-	color:white;
+.bt1:hover{
+    background-color: #4267b2;
 }
-.input{
-	border:1px solid #bcd7d8;
+.for{
+    display:flex;
+    margin-top: 10px;
 }
-.labmail{
-	margin-left:0;
+#fac{
+  font-weight:bold;
+  font-size: 40px;
+  margin-top:10px; 
+  color:white; 
+  margin-left: 100px;
+  font-family: Helvetica, Arial, sans-serif;
 }
+
+
 #information{
-	margin-top: 10px;
-	color:white;
+	margin-top: 5px;
+	color:rgb(156, 180, 216);
 }
 
-.connexion{
-	height: 25px;
-	margin-top: 15px;
-	border:1px solid #bcd7d8;
-	color:white;
-	background-color: #3b5998;
-	cursor: pointer;
+.text3{
+    font-size: 22px;
 }
-.connexion:hover{
-	background-color: #4267b2;
+.k1{
+   margin-left: 100px;
+   color:#0e385f;
+   font-family: inherit;
+   margin-top:40px;
 }
-
+.k2{
+    
+    margin-left:100px;
+}
+#k2{
+    margin-top:-15px;
+}
+h3{
+    font-family: inherit;
+    
+}
+.sex1{
+margin-left: 10px;
+font-size: 20px;
+}
+.franc{
+    color:rgb(123, 126, 113);
+}
+.for1{
+    display:flex;
+    flex-direction: column;
+}
+.for3{
+    margin-top:15px;
+}
+#for3{
+    width:378px;
+}
+.option{
+    display: flex;
+}
 #inscription{
 	font-size: 19px;
 	 border: 1px solid;
@@ -106,7 +145,7 @@ li {
 	padding-left: 10px;
 	line-height: 40%;
 	font-size: 10px;
-	
+	color: #365899;
 }
 li{
 	
@@ -131,7 +170,8 @@ li:hover{
 }
 
 hr{
-	width: 900px;
+    width: 900px;
+    margin-left:53px;
 }
 
 .footer{
@@ -148,9 +188,8 @@ footer{
 }
 .textfooter{
 margin-left: 150px;	
+font-size:11px;
+color:rgb(123, 126, 113);
 }
 
 
-
-
-  
